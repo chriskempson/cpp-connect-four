@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Connect Four
+Icon=/opt/connect-four/icon128.bmp
+# Only KDE 4 seems to use GenericName
+GenericName=A game of Connect Four
+# Gnome and KDE 3 use Comment
+Comment=A game of Connect Four
+Exec=/opt/connect-four/run.sh
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Game;
+Keywords=connect-four;game;
+Name[en_GB]=connect-four
