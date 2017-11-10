@@ -8,8 +8,8 @@
 #include "Resource_manager.h"
 
 // Define vectors to store pointers to instances of resource classes
-std::vector<std::pair<std::string, Image_resource*>> Resource_manager::images;
-std::vector<std::pair<std::string, Sound_resource*>> Resource_manager::sounds;
+std::vector<std::pair<std::string, Image_resource*> > Resource_manager::images;
+std::vector<std::pair<std::string, Sound_resource*> > Resource_manager::sounds;
 
 Image_resource* Resource_manager::get_image(char* file) {
 

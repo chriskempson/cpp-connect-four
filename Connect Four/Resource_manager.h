@@ -62,8 +62,8 @@ public:
 
 private:
 	/// Stores pointers to instances of an Image_resource
-	static std::vector<std::pair<std::string, Image_resource*>> images;
+	static std::vector<std::pair<std::string, Image_resource*> > images;
 
 	/// Stores pointers to instances of an Sound_resource
-	static std::vector<std::pair<std::string, Sound_resource*>> sounds;
+	static std::vector<std::pair<std::string, Sound_resource*> > sounds;
 };
